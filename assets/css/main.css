@@ -1,0 +1,142 @@
+/* COLORES */
+.rosa {
+	background-color: #C8204D;
+}
+
+.gris {
+	background-color: gainsboro;
+}
+
+.negro {
+	background-color: black;
+}
+
+/* color texto */
+
+.blancoTxt {
+	color: white;
+}
+
+.negroTxt {
+	color: white;
+}
+
+.rosaTxt {
+	color: #C8204D;
+}
+
+/* INTRO */
+#intro{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	padding-top: 2%;
+	margin-bottom: 1px; 
+}
+
+.contenedorTitulo div p{
+	font-family: 'Josefin Sans', sans-serif;
+	color: dimgrey;
+	font-size: 2.4vh;
+}
+
+.ContenedorImg-intro {
+	width: 100%;
+	height: auto;
+}
+
+#intro>.contenedorImgIntro>img {
+	width: 45%;
+	height: auto;
+	margin-left: 28.4%;
+	margin-top: 2%;
+}
+
+.contenedorPintro{
+	margin: 0;
+	padding: 0;
+}
+
+/* nav */
+.navPrincipal{
+	margin: 0;	
+}
+
+.navPrincipal a{
+	color: dimgrey;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navPrincipal a:hover{
+	color: white;
+}
+
+.navPrincipal span{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #C8204D;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.logo-nav{
+	margin-top: .5%;
+	
+}
+
+ /*SOBRE MÍ*/
+#sobreMi {
+	margin-top: -1px;
+	width: 100%;
+	height: 100vh;
+}
+
+.mitadIzquierda {
+	width: 100%;
+	height: 100vh;
+}
+
+.mitadDerecha {
+	width: 100%;
+	height: 100vh;
+}
+
+ /* SERVICIOS */
+#servicios {
+	margin-top: -1px;
+	width: 100%;
+	height: 100vh;
+}
+
+ /* SERVICIOS */
+#portafolio {
+	margin-top: -1px;
+	width: 100%;
+	height: 100vh;
+}
+
+/*CONTACTO*/
+
+#contacto {
+	margin-top: -1px;
+	width: 100%;
+	height: 100vh;
+}
+
+footer{
+	margin: 0;
+	padding-top: 2%;
+	background-color: dimgrey;
+	height: 25vh;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+footer div div {
+	width: 100%;
+}
+
+footer div div img {
+	width:10%;
+	
+}
