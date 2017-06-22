@@ -30,13 +30,20 @@
 }
 
 
-/* nav */
+/* SECTION MEDIDAS */
+.sectionMedidas {
+	width: 100%;
+	height: 100vh;
+}
+
+
+/* NAV */
 .navPrincipal{
 	margin: 0;	
 }
 
 .navPrincipal a{
-	color: dimgrey;
+	color: #B5B4B4;
 	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.5vh;
@@ -62,7 +69,7 @@
 	}
 
 	.navPrincipal a{
-		color: dimgrey;
+		color: #B5B4B4;
 		text-decoration: none;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 1.8vh;
@@ -85,21 +92,19 @@
 }
 
 
-
-
 /* INTRO */
+
 #intro{
 	width: 100%;
 	height: 100vh;
 	background-color: black;
-	padding-top: 14%;
-	margin-bottom: 1px; 
 }
 
 .contenedorTitulo div p{
 	font-family: 'Josefin Sans', sans-serif;
 	color: dimgrey;
 	font-size: 2.4vh;
+	padding-top: 28%;
 }
 
 .ContenedorImg-intro div{
@@ -111,7 +116,7 @@
 	text-align: center;
 	width: 95%;
 	height: auto;
-	margin-top: 23%;
+	margin-top: 25%;
 	margin-left: 2%;
 }
 
@@ -148,50 +153,75 @@
 		margin-top: 4%;
 		margin-left: 20%;
 	}
-
 }
-
 
  /*SOBRE MÍ*/
-#sobreMi {
-	margin-top: -1px;
-	width: 100%;
-	height: 100vh;
+
+section#sobreMi section.row div {
+	height: 100%;
 }
 
-.mitadIzquierda {
-	width: 100%;
-	height: 100vh;
+section#sobreMi section.row div.rosa img#karlaHexagono {
+	width: 30%;
+	margin-left: 87%;
+	margin-top: 16%;
 }
 
-.mitadDerecha {
-	width: 100%;
-	height: 100vh;
+section#sobreMi section.row div.rosa img#sobreMiImg {
+	width: 80%;
+	margin-left: 8%;
+	margin-top: 8%;
 }
 
- /* SERVICIOS */
-#servicios {
-	margin-top: -1px;
-	width: 100%;
-	height: 100vh;
+p#parrafoSobreMi.col.m7.offset-m3 
+{
+	padding-top: 40%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3vh;
+	text-align: center;
 }
 
- /* SERVICIOS */
-#portafolio {
-	margin-top: -1px;
-	width: 100%;
-	height: 100vh;
+p#parrafoSobreMiDos.col.m7.offset-m3 
+{
+	padding-top: 4%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+ /* HABILIDADES */
+section#habilidades section.row.sectionMedidas div.hide-on-small-only{
+	height: 100%;
+}
+
+section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
+	margin-left: 9%;
+	margin-top: 30%;
+	width: 83%;
 }
 
 /*CONTACTO*/
 
-#contacto {
-	margin-top: -1px;
-	width: 100%;
-	height: 100vh;
+section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
+	height: 100%;
+	padding-top: 26%;
+}
+
+section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
+	width: 83%;
+	margin-left: 12%;
 }
 
 /* PORTAFOLIO */
+
+section#portafolio section.row.sectionMedidas div.hide-on-small-only {
+	height: 100%;
+	padding-top: 20%;
+}
+
+img#imgPortafolio {
+	width: 82%;
+}
 
 @media (max-width: 700px) {
 	#portafolio section div.negro{
@@ -199,8 +229,6 @@
 	}
 	
 }
-
-
 
 footer{
 	margin: 0;
