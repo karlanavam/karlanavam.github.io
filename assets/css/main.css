@@ -225,6 +225,10 @@ section#habilidades {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+section#habilidades section.row.sectionMedidas {
+	margin: 0;
+}
+
 section#habilidades section.row.sectionMedidas div.hide-on-small-only{
 	height: 100%;
 }
@@ -255,6 +259,15 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 .sin-padding {
 	padding: 0;
 	margin: 0;
+}
+
+.img-desktop-habilidades img{
+	width: 88%;
+}
+
+.img-desktop-habilidades-dos img{
+	width: 40%;
+	padding-right: 5%;
 }
 
 @media (max-width: 700px) {
@@ -304,9 +317,28 @@ section#portafolio section.row.sectionMedidas div.hide-on-small-only {
 	padding-top: 20%;
 }
 
+section#portafolio section.row.sectionMedidas div.col.s12.m6.l6.xl6 {
+	background: white;
+	height: 100%;
+}
 
 img#imgPortafolio {
 	width: 82%;
+}
+
+div.col.s10.m10.offset-s1.offset-m1.carousel.initialized {
+	margin: -35% 0 0 10%;
+	padding: 0;
+}
+
+img#titulo-portafolio-mobile {
+	width: 70%;
+	margin-top: 17%;
+	margin-left: 13%;
+}
+
+div.row.carouselMobile-desktop.hide-on-med-and-down{
+	margin-top: 8%;
 }
 
 @media (max-width: 700px) {
@@ -314,6 +346,9 @@ img#imgPortafolio {
 		background: white;
 	}
 	
+	section#portafolio section.row.sectionMedidas div.col.s12.m6.l6.xl6 {
+		background-color: gainsboro;
+	}
 }
 
 
@@ -327,6 +362,10 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
 section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 	width: 83%;
 	margin-left: 12%;
+}
+
+.img-contacto-desktop {
+	width: 30%;
 }
 
 @media (max-width: 700px) {
