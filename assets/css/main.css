@@ -341,13 +341,23 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 	margin-top: 8%;
 }
 
+.pd-lft-btns{
+	padding-left: 8%;
+	margin-top: -6%;
+}
+
+.btn, .btn-large, .col.s3 {
+    background-color: white;
+	color: #C8204D;
+}
+
 @media (max-width: 700px) {
 	#portafolio section div.negro{
 		background: white;
 	}
 	
 	section#portafolio section.row.sectionMedidas div.col.s12.m6.l6.xl6 {
-		background-color: gainsboro;
+		background-color: #EDEDED;
 	}
 }
 
@@ -397,7 +407,7 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 /* --- FOOTER ---*/
 
 footer{
-	margin: 0;
+	margin-top: -20%;;
 	padding-top: 2%;
 	background-color: dimgrey;
 	height: 100%;
