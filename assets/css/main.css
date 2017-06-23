@@ -266,6 +266,11 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 		padding-left: 0;
 	}
 	
+	.pding-t {
+		padding-left: 7%;
+		padding-top: 2%;
+	}
+	
 	.img-mobile-habilidades img {
 		width: 80%;
 	}
@@ -279,25 +284,21 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 		text-align: center;
 	}
 	
+	.contenedorImagen-habilidades{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#habilidadesTitulo-mobile {
+		width: 60%;
+		margin-left: 18%;
+		margin-bottom: 0;
+	}
+	
 }
-
-/* ----- CONTACTO ----- */
-
-/*
-section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
-	height: 100%;
-	padding-top: 22%;
-}
-
-section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
-	width: 83%;
-	margin-left: 12%;
-}
-*/
 
 /* PORTAFOLIO */
 
-/*
 section#portafolio section.row.sectionMedidas div.hide-on-small-only {
 	height: 100%;
 	padding-top: 20%;
@@ -314,7 +315,34 @@ img#imgPortafolio {
 	}
 	
 }
-*/
+
+
+/* ----- CONTACTO ----- */
+
+section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
+	height: 100%;
+	padding-top: 20%;
+}
+
+section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
+	width: 83%;
+	margin-left: 12%;
+}
+
+@media (max-width: 700px) {
+	img-contacto-mobile{
+		width: 80%;
+	}
+	
+	section#contacto section.row div.col.s7.m6.l6.xl6.offset-s2{
+		padding-top: 20%;
+	}
+	
+}
+
+
+
+/* --- FOOTER ---*/
 
 footer{
 	margin: 0;
@@ -330,7 +358,8 @@ footer div div {
 }
 
 footer div div img {
-	width:10%;	
+	width:10%;
+	margin-left: 6%;
 }
 
 footer div span {
@@ -350,7 +379,7 @@ footer div span {
 	}
 	
 	footer div div img {
-	width:5%;	
+	width:8%;	
 }
 	
 	footer div span {
