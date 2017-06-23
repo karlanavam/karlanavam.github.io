@@ -72,7 +72,7 @@
 		color: #B5B4B4;
 		text-decoration: none;
 		font-family: 'Josefin Sans', sans-serif;
-		font-size: 1.8vh;
+		font-size: 2vh;
 	}
 
 	.navPrincipal a:hover{
@@ -209,7 +209,7 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 }
 
 .pding-top {
-	padding-top: 25%;
+	padding-top: 20%;
 }
 
 .pding-t {
@@ -301,6 +301,19 @@ footer div span {
 	
 }
 
+.btn, .btn-large {
+	background-color: #C8204D;
+	border-radius: 10%;
+	color: white;
+	border-color: 2px solid #C8204D;
+	font-size: 1.5vh;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #C8204D;
+}
+
 
 /* BARRA PROGRESO */
 
@@ -331,3 +344,5 @@ footer div span {
     width: 100%
   }
 }
+
+/*  EFECTO TYPING */
