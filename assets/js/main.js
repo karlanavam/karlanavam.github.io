@@ -1,9 +1,10 @@
-  $(document).ready(function(){
-      $('.carousel').carousel();
-    });
+/* ---- INICIALIZAR CAROUSEL ---- */
 
+$(document).ready(function(){
+	$('.carousel').carousel();
+});
 
-
+/* ---- EFECTO SMOOTH SCROLL ---- */
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -43,17 +44,46 @@ $('a[href*="#"]')
     }
   });
 
+/* ---- #HABILIDADES: BARRA PROGESO ---- */
+
+/*botones*/
+var $imgHtml = $('#imgHtml');
+var $imgCss = $('#imgCss');
+var $imgJs = $('#imgJs');
+var $imgJquery = $('#imgJquery');
+var $imgGit = $('#imgGit');
+
+/*barras*/
 var $barraBasico = $('#basico');
 var $barraInter = $('#intermedio');
 
-var $intermedios = $(".intermedio");
-console.log($intermedios);
-
-var $basicos = $(".basico");
-console.log($basicos);
-/*
 $barraBasico.hide();
-$barraInter.hide();*/
+$barraInter.hide();
+
+$imgHtml.click(function(){
+	$barraBasico.hide();
+	$barraInter.show();
+});
+
+$imgCss.click(function(){
+	$barraBasico.hide();
+	$barraInter.show();
+});
+
+$imgJs.click(function(){
+	$barraBasico.hide();
+	$barraInter.show();
+});
+
+$imgJquery.click(function(){
+	$barraBasico.hide();
+	$barraInter.show();
+});
+
+$imgGit.click(function(){
+	$barraBasico.show();
+	$barraInter.hide();
+});
 
 
 
