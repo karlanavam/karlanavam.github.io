@@ -98,6 +98,7 @@
 	width: 100%;
 	height: 100vh;
 	background-color: black;
+	padding-top: 29%;
 }
 
 .contenedorTitulo div p{
@@ -116,7 +117,7 @@
 	text-align: center;
 	width: 95%;
 	height: auto;
-	margin-top: 25%;
+	margin-top: 22%;
 	margin-left: 2%;
 }
 
@@ -189,8 +190,38 @@ p#parrafoSobreMiDos.col.m7.offset-m3
 	text-align: justify;
 }
 
+@media (max-width: 700px) {
+    section#sobreMi section.row div.rosa img#karlaHexagono {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 23%;
+    }    
+    
+    section#sobreMi section.row div.rosa img#sobreMiImg {
+    width: 47%;
+	margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 5%;
+	}
+	
+	p#parrafoSobreMi.col.m7.offset-m3 {
+	padding-top: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	}
+
+p#parrafoSobreMiDos.col.m7.offset-m3 {
+	padding-top: 1%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3vh;
+	text-align: justify;
+	}
+}
+
  /* HABILIDADES */
-section#habilidades {
+
+/*section#habilidades {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -224,10 +255,11 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 .sin-padding {
 	padding: 0;
 	margin: 0;
-}
+}*/
 
 /*CONTACTO*/
 
+/*
 section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
 	height: 100%;
 	padding-top: 22%;
@@ -237,9 +269,11 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 	width: 83%;
 	margin-left: 12%;
 }
+*/
 
 /* PORTAFOLIO */
 
+/*
 section#portafolio section.row.sectionMedidas div.hide-on-small-only {
 	height: 100%;
 	padding-top: 20%;
@@ -256,6 +290,7 @@ img#imgPortafolio {
 	}
 	
 }
+*/
 
 footer{
 	margin: 0;
