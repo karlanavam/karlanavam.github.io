@@ -486,12 +486,30 @@ footer div span {
   animation-timing-function: ease-in-out;
 }
 
+
+#intermedio{
+	animation-name: increase;
+}
+
+#basico{
+	animation-name: increase-20;
+}
+
 @keyframes increase {
   from {
-    width: 1%
+    width: 0%
   }
   to {
-    width: 100%
+    width: 50%
+  }
+}
+
+@keyframes increase-20{
+  from {
+    width: 0%
+  }
+  to {
+    width: 25%
   }
 }
 
