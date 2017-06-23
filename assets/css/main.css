@@ -335,7 +335,20 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 	}
 	
 	section#contacto section.row div.col.s7.m6.l6.xl6.offset-s2{
-		padding-top: 20%;
+		padding-top: 25%;
+	}
+	
+	section#contacto section.row div.col.s7.m6.l6.xl6.offset-s2 div{
+		margin-bottom: 0;
+	}
+	
+	#tituloContacto {
+		width: 95%;
+		margin-left: 5%;
+	}
+	
+	.pding-top{
+		padding-top: 0;
 	}
 	
 }
