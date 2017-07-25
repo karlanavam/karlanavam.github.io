@@ -341,6 +341,10 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 	margin-top: 8%;
 }
 
+.p {
+    margin: 0;
+}
+
 .pd-lft-btns{
 	padding-left: 8%;
 	margin-top: -6%;
