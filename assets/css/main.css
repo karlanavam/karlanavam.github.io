@@ -46,7 +46,7 @@
 	color: #B5B4B4;
 	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.5vh;
+	font-size: 1.7vh;
 }
 
 .navPrincipal a:hover{
@@ -96,7 +96,7 @@
 
 #intro{
 	width: 100%;
-	height: 100vh;
+	height: 101vh;
 	background-color: black;
 	padding-top: 29%;
 }
@@ -407,7 +407,6 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 /* --- FOOTER ---*/
 
 footer{
-	margin-top: -20%;;
 	padding-top: 2%;
 	background-color: dimgrey;
 	height: 100%;
