@@ -1,35 +1,3 @@
-/* COLORES */
-.rosa {
-	background-color: #C8204D;
-}
-
-.gris {
-	background-color: gainsboro;
-}
-
-.negro {
-	background-color: black;
-}
-
-.blanco {
-	background-color: white;
-}
-
-/* color texto */
-
-.blancoTxt {
-	color: white;
-}
-
-.negroTxt {
-	color: white;
-}
-
-.rosaTxt {
-	color: #C8204D;
-}
-
-
 /* SECTION MEDIDAS */
 .sectionMedidas {
 	width: 100%;
@@ -38,12 +6,14 @@
 
 
 /* NAV */
+
+/* mobile */
 .navPrincipal{
 	margin: 0;	
 }
 
 .navPrincipal a{
-	color: #B5B4B4;
+	color: white;
 	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.7vh;
@@ -62,6 +32,7 @@
 	margin-top: .5%;
 }
 
+/* desktop */
 @media (min-width: 700px) and (orientation: landscape) {
 	/* nav */
 	.navPrincipal{
@@ -69,7 +40,7 @@
 	}
 
 	.navPrincipal a{
-		color: #B5B4B4;
+		color: white;
 		text-decoration: none;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 2vh;
@@ -94,6 +65,7 @@
 
 /* INTRO */
 
+/* mobile */
 #intro{
 	width: 100%;
 	height: 101vh;
@@ -103,9 +75,9 @@
 
 .contenedorTitulo div p{
 	font-family: 'Josefin Sans', sans-serif;
-	color: dimgrey;
+	color: white;
 	font-size: 2.4vh;
-	padding-top: 15%;
+	padding-top: 8%;
 }
 
 .ContenedorImg-intro div{
@@ -126,6 +98,7 @@
 	padding: 0;
 }
 
+/* desktop */
 @media (min-width: 700px) and (orientation: landscape) {
 	
 	#intro{
@@ -138,7 +111,7 @@
 
 	.contenedorTitulo div p{
 		font-family: 'Josefin Sans', sans-serif;
-		color: dimgrey;
+		color: white;
 		font-size: 2.4vh;
 	}
 
@@ -156,15 +129,16 @@
 	}
 }
 
- /*  ---- SOBRE MÍ ---- */
+/*  ---- SOBRE MÍ ---- */
 
+/* desktop */
 section#sobreMi section.row div {
 	height: 100%;
 }
 
 section#sobreMi section.row div.rosa img#karlaHexagono {
-	width: 30%;
-	margin-left: 87%;
+	width: 27%;
+	margin-left: 89%;
 	margin-top: 16%;
 }
 
@@ -190,6 +164,7 @@ p#parrafoSobreMiDos.col.m7.offset-m3
 	text-align: justify;
 }
 
+/* celular */
 @media (max-width: 700px) {
     section#sobreMi section.row div.rosa img#karlaHexagono {
     width: 30%;
@@ -219,8 +194,9 @@ p#parrafoSobreMiDos.col.m7.offset-m3 {
 	}
 }
 
- /* ---- HABILIDADES ---- */
+/* ---- HABILIDADES ---- */
 
+/* desktop */
 section#habilidades {
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -236,15 +212,22 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only{
 section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 	margin-left: 9%;
 	margin-top: 49%;
-	width: 83%;
+	width: 80%;
 }
+
+p.col.s12.m6.offset-m3.center-align{
+	text-align: center;
+	font-size: 3.5vh;
+	margin: 0;
+	padding: 0 0 0 3%;
+} 
 
 .pding-l {
 	padding-left: 13%;
 }
 
 .pding-top {
-	padding-top: 20%;
+	padding-top: 12%;
 }
 
 .pding-t {
@@ -256,20 +239,20 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 	font-size: 4vh;
 }
 
-.sin-padding {
+.padding-cero{
 	padding: 0;
-	margin: 0;
 }
+
+.bottom-cero{
+	margin-bottom: 0;
+}
+
 
 .img-desktop-habilidades img{
-	width: 88%;
+	width: 70%;
 }
 
-.img-desktop-habilidades-dos img{
-	width: 40%;
-	padding-right: 5%;
-}
-
+/* mobile */
 @media (max-width: 700px) {
 	#habilidades{
 		padding-top: 20%;
@@ -285,11 +268,28 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 	}
 	
 	.img-mobile-habilidades img {
-		width: 80%;
+		width: 70%;
 	}
 	
 	.img-mobile-habilidades-dos img {
 		width: 36%;
+	}
+	
+	section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
+	margin-left: 9%;
+	margin-top: 49%;
+	width: 80%;
+}
+	
+	p.col.s12.m6.offset-m3.center-align{
+	text-align: center;
+	font-size: 2.8vh;
+	margin: 0;
+	padding: 0 0 0 3%;
+} 
+	
+	.margin-topSM {
+		margin-top: -5%;
 	}
 	
 	.font-dosvh {
@@ -312,6 +312,7 @@ section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
 
 /* PORTAFOLIO */
 
+/* desktop */
 section#portafolio section.row.sectionMedidas div.hide-on-small-only {
 	height: 100%;
 	padding-top: 20%;
@@ -355,6 +356,7 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 	color: #C8204D;
 }
 
+/* mobile */
 @media (max-width: 700px) {
 	#portafolio section div.negro{
 		background: white;
@@ -368,6 +370,7 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 
 /* ----- CONTACTO ----- */
 
+/* desktop */
 section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
 	height: 100%;
 	padding-top: 20%;
@@ -382,6 +385,7 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 	width: 30%;
 }
 
+/* mobile */
 @media (max-width: 700px) {
 	img-contacto-mobile{
 		width: 80%;
@@ -410,6 +414,7 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 
 /* --- FOOTER ---*/
 
+/* mobile */
 footer{
 	padding-top: 2%;
 	background-color: dimgrey;
@@ -432,6 +437,7 @@ footer div span {
 		font-size: 2vh;
 	}
 
+/* desktop */
 @media (min-width: 700px) and (orientation: landscape) {
 	footer{
 		margin: 0;
@@ -517,3 +523,42 @@ footer div span {
 }
 
 /*  EFECTO TYPING */
+
+/* HELPERS */
+
+.cero {
+	margin: 0;
+	padding: 0;
+}
+
+/* COLORES */
+.rosa {
+	background-color: #C8204D;
+}
+
+.gris {
+	background-color: gainsboro;
+}
+
+.negro {
+	background-color: black;
+}
+
+.blanco {
+	background-color: white;
+}
+
+/* color texto */
+
+.blancoTxt {
+	color: white;
+}
+
+.negroTxt {
+	color: white;
+}
+
+.rosaTxt {
+	color: #C8204D;
+}
+
