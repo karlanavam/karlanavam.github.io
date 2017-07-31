@@ -308,6 +308,10 @@ p.col.s12.m6.offset-m3.center-align{
 		margin-bottom: 0;
 	}
 	
+	.margin-top-habs{
+		margin-top: 10%;
+	}
+	
 }
 
 /* PORTAFOLIO */
@@ -354,6 +358,7 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 .btn, .btn-large, .col.s3 {
     background-color: white;
 	color: #C8204D;
+	font-size: 2vh;
 }
 
 /* mobile */
@@ -373,7 +378,7 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 /* desktop */
 section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
 	height: 100%;
-	padding-top: 20%;
+	padding-top: 23%;
 }
 
 section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
@@ -382,7 +387,25 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 }
 
 .img-contacto-desktop {
-	width: 30%;
+	width: 20%;
+}
+
+.pding-topCont {
+	padding-top: 20%;
+}
+
+.btn, .btn-large {
+	background-color: #C8204D;
+	color: white;
+	border-color: 2px solid #C8204D;
+	font-size: 2vh;
+	margin-left: 22%;
+	padding: 0 3%;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #C8204D;
 }
 
 /* mobile */
@@ -406,6 +429,12 @@ section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
 	
 	.pding-top{
 		padding-top: 0;
+	}
+	
+	.btn, .btn-large {
+		margin-left: 14%;
+		margin-top: 30%;
+		padding: 0 3%;
 	}
 	
 }
@@ -459,70 +488,6 @@ footer div span {
 	}
 	
 }
-
-.btn, .btn-large {
-	background-color: #C8204D;
-	border-radius: 10%;
-	color: white;
-	border-color: 2px solid #C8204D;
-	font-size: 1.5vh;
-}
-
-.btn:hover {
-	background-color: white;
-	color: #C8204D;
-}
-
-
-/* BARRA PROGRESO */
-
-.progress {
-  width: 500px;
-  height: 16px;
-  background-color: #c5c5c5;
-  border-radius: 16px;
-  padding: 4px;
-}
-
-.bar {
-  background-color: #f5f5f5;
-  width: 10%;
-  height: 100%;
-  border-radius: 16px;
-  animation-name: increase;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-
-#intermedio{
-	animation-name: increase;
-}
-
-#basico{
-	animation-name: increase-20;
-}
-
-@keyframes increase {
-  from {
-    width: 0%
-  }
-  to {
-    width: 50%
-  }
-}
-
-@keyframes increase-20{
-  from {
-    width: 0%
-  }
-  to {
-    width: 25%
-  }
-}
-
-/*  EFECTO TYPING */
 
 /* HELPERS */
 
