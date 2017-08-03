@@ -350,6 +350,10 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
     margin: 0;
 }
 
+.p-size{
+	font-size: .8em;	
+}
+
 .pd-lft-btns{
 	padding-left: 8%;
 	margin-top: -6%;
@@ -359,6 +363,10 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
     background-color: white;
 	color: #C8204D;
 	font-size: 2vh;
+}
+
+.pdng-portafolio{
+	padding-top: 15%;
 }
 
 /* mobile */
@@ -527,3 +535,6 @@ footer div span {
 	color: #C8204D;
 }
 
+.fuente{
+	font-family: 'Josefin Sans', sans-serif;
+}
