@@ -44,46 +44,14 @@ $('a[href*="#"]')
     }
   });
 
-/* ---- #HABILIDADES: BARRA PROGESO ---- */
 
-/*botones*/
-var $imgHtml = $('#imgHtml');
-var $imgCss = $('#imgCss');
-var $imgJs = $('#imgJs');
-var $imgJquery = $('#imgJquery');
-var $imgGit = $('#imgGit');
-
-/*barras*/
-var $barraBasico = $('#basico');
-var $barraInter = $('#intermedio');
-
-$barraBasico.hide();
-$barraInter.hide();
-
-$imgHtml.click(function(){
-	$barraBasico.hide();
-	$barraInter.show();
-});
-
-$imgCss.click(function(){
-	$barraBasico.hide();
-	$barraInter.show();
-});
-
-$imgJs.click(function(){
-	$barraBasico.hide();
-	$barraInter.show();
-});
-
-$imgJquery.click(function(){
-	$barraBasico.hide();
-	$barraInter.show();
-});
-
-$imgGit.click(function(){
-	$barraBasico.show();
-	$barraInter.hide();
-});
-
-
+/* MODALES */
+$(document).ready(function(){
+    $('#epicQueen').modal();
+    $('#campusParty').modal();
+    $('#proyecto1').modal();
+    $('#proyecto2').modal();
+    $('#proyecto3').modal();
+    $('#proyecto4').modal();
+  });
 

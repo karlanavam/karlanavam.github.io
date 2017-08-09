@@ -369,6 +369,21 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 	padding-top: 15%;
 }
 
+.img-portafolio{
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+}
+
+.img-portafolio:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+cursor: pointer;
+}
+
+.imgProyecto{
+	width: 100%;
+}
+
 /* mobile */
 @media (max-width: 700px) {
 	#portafolio section div.negro{
@@ -377,6 +392,14 @@ div.row.carouselMobile-desktop.hide-on-med-and-down{
 	
 	section#portafolio section.row.sectionMedidas div.col.s12.m6.l6.xl6 {
 		background-color: #EDEDED;
+	}
+	
+	.row-mobile{
+		margin-bottom: 0;
+	}
+	
+	.pdng-portafolio{
+		padding-top: 5%;
 	}
 }
 
